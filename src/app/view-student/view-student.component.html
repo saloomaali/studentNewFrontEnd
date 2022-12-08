@@ -14,11 +14,11 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                            <tr *ngFor = "let i of data">
+                                <td>{{i.name}} </td>
+                                <td>{{i.admnNo}} </td>
+                                <td>{{i.rollNo}} </td>
+                                <td>{{i.college}} </td>
                             </tr>
                         </tbody>
                         
